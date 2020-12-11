@@ -1,0 +1,138 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: teal;
+    line-height: 70px;
+}
+.logo{
+    margin: auto;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    
+}
+header nav{
+    display: flex;
+}
+
+.navlinks{
+    display: flex;
+    margin: auto;
+    font-style: none;
+    list-style: none;
+}
+
+.navlinks li{
+    text-decoration: none;
+    font-style: none;
+}
+
+.navlinks li a{
+    font-size: bold;
+    font-family: sans-serif;
+    color: white;
+    padding: 20px;
+    font-style: none;
+    text-decoration: none;
+}
+
+.navlinks li a:hover{
+
+    color: rgb(4, 74, 77);
+    border-bottom: 2px solid white ;
+    transition: 0.4s all;
+}
+
+/*css for navbar end here*/
+/*css for images and login*/
+
+#home{
+    bottom: 0;
+    position: relative;
+    left: 0;
+    z-index: -1;
+    height: 70vh;
+    margin-top: 80px;
+
+}
+
+
+.container{
+
+    display: flex;
+    width: 50%;
+    height: 100vh;
+}
+
+.login{
+     width: max-content;
+     margin: 200px;
+     align-content: center;
+}
+
+.login form{
+    padding: 20px;
+}
+
+.login h1{
+    text-align: center;
+  
+    color: teal;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+form input{
+        margin: 20px;
+}
+
+
+#user{
+
+        border-radius: 10px;
+        padding: 6px;
+        cursor: pointer;
+}
+
+#pass{
+
+    border-radius:10px ;
+    padding: 6px;
+    cursor: pointer;
+}
+
+form button{
+
+    font-size: 10px;
+    padding: 10px;
+    align-items: center;
+    align-self: center;
+    background-color: teal;
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 20px;
+    font-family: sans-serif;
+}   
+
+.end h5{
+    text-align: center;
+}
+
+.dis ul{
+    float: right;
+    text-decoration: none;
+    list-style: none;
+
+    
+}
+
+.dis ul li{
+    padding: 7px;
+}
